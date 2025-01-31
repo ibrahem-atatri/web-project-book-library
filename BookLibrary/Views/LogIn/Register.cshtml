@@ -1,0 +1,59 @@
+﻿@{
+    ViewData["Title"] = "Register";
+}
+
+@model User
+@* register style *@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="~/css/register.css" asp-append-version="true">
+@* end register style *@
+
+<div class="register d-flex">
+    <div class="register-img">
+        <img src="~/image/library.png" alt="">
+        <div class="overlay">
+            <p>Join Us Now</p>
+        </div>
+    </div>
+    <div class="register-form">
+        <form class="container" asp-action="Register" method="post">
+            <h2>Register</h2>
+            <span>Create a new account</span>
+            <div class="name">
+                <i class="fa-regular fa-user"></i>
+                <input type="text" asp-for="userName" required>
+                <span>Name</span>
+                <div class="name-error-msg">Name is required</div>
+            </div>
+            <div class="email">
+                <i class="fa-regular fa-envelope"></i>
+                <input type="email" asp-for="userEmail" required>
+                <span>Email</span>
+                <div class="email-error-msg">Email is required</div>
+            </div>
+            <div class="password">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" asp-for="userPassword" required>
+                <span>Password</span>
+                <div class="password-error-msg">Password is required</div>
+            </div>
+            <div class="confirm-password">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" name="confirmPassword" required>
+                <span>Confirm Password</span>
+                <div class="confirm-password-error-msg">Passwords must match</div>
+            </div>
+            @if (@ViewBag.text != null)
+            {
+                <p class="text-danger">
+                    @ViewBag.text
+                </p>
+            }
+            <button type="submit">Register <i class="fa-solid fa-user-plus"></i></button>
+            <span>Already have an account? <a asp-controller="LogIn" asp-action="LogIn">Login</a></span>
+        </form>
+    </div>
+</div>
+
+

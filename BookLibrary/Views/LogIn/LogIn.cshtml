@@ -1,0 +1,39 @@
+﻿@model string
+
+@{
+    ViewData["Title"] = "LogIn";
+}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="~/css/login.css">
+<!-- //css file end -->
+<div class=" login d-flex">
+    <div class="login-img">
+        <img src="~/image/library.png" alt="">
+        <div class="overlay">
+            <p>Welcome Back </p>
+        </div>
+    </div>
+    <div class="login-form">
+        <form class="contaner" asp-action="LogIn" method="post">
+            <h2>Login</h2>
+            <span>Welcome back ! please login to your account </span>
+            <div class="email">
+                <i class="fa-regular fa-user"></i>
+                <input type="email" name="email" required>
+                <span>email</span>
+                <div class="email-error-msg">Email is required</div>
+            </div>
+            <div class="password">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" name="password" required>
+                <span>password</span>
+                <div class="password-error-msg">Password is required</div>
+            </div>
+            <p>@Model</p>
+            <button type="submit" >Login <i class="fa-solid fa-arrow-right-to-bracket"></i></button>
+            <a asp-controller="LogIn" asp-action="Register">Register</a>
+        </form>
+    </div>
+</div>
+
+

@@ -1,0 +1,54 @@
+﻿@model Book
+
+@{
+    ViewData["Title"] = "EditBook";
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="~/css/general.css">
+<link rel="stylesheet" href="~/css/bookadd.css">
+<header class="header">
+    <div class="contaner">
+        <div class="header-content">
+            <div class="logo">
+                <img src="./assets/img/book-logo.jpg" alt="">
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a asp-controller="Home" asp-action="Index">Home</a>
+                    </li>
+                    <li>
+                        <a asp-controller="Home" asp-action="About">About</a>
+                    </li>
+
+
+                </ul>
+            </nav>
+            <div class="header-icon">
+                <a asp-controller="LogIn" asp-action="LogOut"><i class="fa-solid fa-right-to-bracket"></i></a>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="container">
+
+    <h1>Edit Book</h1>
+
+    <form asp-action="Edit" method="post">
+
+        <input type="hidden" asp-for="bookId" />
+
+        <label asp-for="bookName">Book Name:</label>
+        <input asp-for="bookName" type="text" placeholder="Enter book name" required>
+
+
+        <label asp-for="bookGenre">Genre:</label>
+        <input asp-for="bookGenre" type="text" placeholder="Enter genre" required>
+        <label asp-for="bookCoverImage">Book Cover Image :</label>
+        <input asp-for="bookCoverImage" type="url" placeholder="Enter image URL" required>
+
+        <button type="submit">Save</button>
+    </form>
+
+</div>
