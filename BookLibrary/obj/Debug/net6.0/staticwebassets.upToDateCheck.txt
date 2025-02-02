@@ -1,11 +1,8 @@
 wwwroot\css\about.css
 wwwroot\css\book.css
 wwwroot\css\bookadd.css
-wwwroot\css\books-save.css
-wwwroot\css\contact.css
 wwwroot\css\general.css
 wwwroot\css\login.css
-wwwroot\css\main.css
 wwwroot\css\register.css
 wwwroot\css\site.css
 wwwroot\favicon.ico

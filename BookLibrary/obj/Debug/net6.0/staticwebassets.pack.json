@@ -17,24 +17,12 @@
       "PackagePath": "staticwebassets\\css\\bookadd.css"
     },
     {
-      "Id": "E:\\web\\BookLibrary\\BookLibrary\\wwwroot\\css\\books-save.css",
-      "PackagePath": "staticwebassets\\css\\books-save.css"
-    },
-    {
-      "Id": "E:\\web\\BookLibrary\\BookLibrary\\wwwroot\\css\\contact.css",
-      "PackagePath": "staticwebassets\\css\\contact.css"
-    },
-    {
       "Id": "E:\\web\\BookLibrary\\BookLibrary\\wwwroot\\css\\general.css",
       "PackagePath": "staticwebassets\\css\\general.css"
     },
     {
       "Id": "E:\\web\\BookLibrary\\BookLibrary\\wwwroot\\css\\login.css",
       "PackagePath": "staticwebassets\\css\\login.css"
-    },
-    {
-      "Id": "E:\\web\\BookLibrary\\BookLibrary\\wwwroot\\css\\main.css",
-      "PackagePath": "staticwebassets\\css\\main.css"
     },
     {
       "Id": "E:\\web\\BookLibrary\\BookLibrary\\wwwroot\\css\\register.css",

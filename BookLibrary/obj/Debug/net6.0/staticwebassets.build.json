@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "B8ezF/sIEAA8NgSd1io87P37GCFneSjIEmhrBkaVj8U=",
+  "Hash": "3CCChq2SFKxkuLktHoiOayMI0QSmyPlaAMt220gbymA=",
   "Source": "BookLibrary",
   "BasePath": "_content/BookLibrary",
   "Mode": "Default",
@@ -122,48 +122,6 @@
       "OriginalItemSpec": "wwwroot\\css\\bookadd.css"
     },
     {
-      "Identity": "E:\\web\\BookLibrary\\BookLibrary\\wwwroot\\css\\books-save.css",
-      "SourceId": "BookLibrary",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\web\\BookLibrary\\BookLibrary\\wwwroot\\",
-      "BasePath": "_content/BookLibrary",
-      "RelativePath": "css/books-save#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "xkj207cx6v",
-      "Integrity": "oUsJZD/nCaYykZxs99YTXA622hf1W8sG2lpsCVNCosE=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\books-save.css"
-    },
-    {
-      "Identity": "E:\\web\\BookLibrary\\BookLibrary\\wwwroot\\css\\contact.css",
-      "SourceId": "BookLibrary",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\web\\BookLibrary\\BookLibrary\\wwwroot\\",
-      "BasePath": "_content/BookLibrary",
-      "RelativePath": "css/contact#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "616eb9ccm3",
-      "Integrity": "CoWVb6+5g7028k22askTbb8QRSe9x53JDtL9B2yP0ak=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\contact.css"
-    },
-    {
       "Identity": "E:\\web\\BookLibrary\\BookLibrary\\wwwroot\\css\\general.css",
       "SourceId": "BookLibrary",
       "SourceType": "Discovered",
@@ -204,27 +162,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\login.css"
-    },
-    {
-      "Identity": "E:\\web\\BookLibrary\\BookLibrary\\wwwroot\\css\\main.css",
-      "SourceId": "BookLibrary",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\web\\BookLibrary\\BookLibrary\\wwwroot\\",
-      "BasePath": "_content/BookLibrary",
-      "RelativePath": "css/main#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "uzj83m1yrt",
-      "Integrity": "OqJvA11ER+4w/GACLuo/aVJodP6yyaEqbOduICbSJzE=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\main.css"
     },
     {
       "Identity": "E:\\web\\BookLibrary\\BookLibrary\\wwwroot\\css\\register.css",
@@ -1983,170 +1920,6 @@
       ]
     },
     {
-      "Route": "css/books-save.css",
-      "AssetFile": "E:\\web\\BookLibrary\\BookLibrary\\wwwroot\\css\\books-save.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "312"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"oUsJZD/nCaYykZxs99YTXA622hf1W8sG2lpsCVNCosE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 02 Nov 2024 12:31:39 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-oUsJZD/nCaYykZxs99YTXA622hf1W8sG2lpsCVNCosE="
-        }
-      ]
-    },
-    {
-      "Route": "css/books-save.xkj207cx6v.css",
-      "AssetFile": "E:\\web\\BookLibrary\\BookLibrary\\wwwroot\\css\\books-save.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "312"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"oUsJZD/nCaYykZxs99YTXA622hf1W8sG2lpsCVNCosE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 02 Nov 2024 12:31:39 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "xkj207cx6v"
-        },
-        {
-          "Name": "label",
-          "Value": "css/books-save.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-oUsJZD/nCaYykZxs99YTXA622hf1W8sG2lpsCVNCosE="
-        }
-      ]
-    },
-    {
-      "Route": "css/contact.616eb9ccm3.css",
-      "AssetFile": "E:\\web\\BookLibrary\\BookLibrary\\wwwroot\\css\\contact.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "893"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"CoWVb6+5g7028k22askTbb8QRSe9x53JDtL9B2yP0ak=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 02 Nov 2024 12:31:39 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "616eb9ccm3"
-        },
-        {
-          "Name": "label",
-          "Value": "css/contact.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-CoWVb6+5g7028k22askTbb8QRSe9x53JDtL9B2yP0ak="
-        }
-      ]
-    },
-    {
-      "Route": "css/contact.css",
-      "AssetFile": "E:\\web\\BookLibrary\\BookLibrary\\wwwroot\\css\\contact.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "893"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"CoWVb6+5g7028k22askTbb8QRSe9x53JDtL9B2yP0ak=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 02 Nov 2024 12:31:39 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-CoWVb6+5g7028k22askTbb8QRSe9x53JDtL9B2yP0ak="
-        }
-      ]
-    },
-    {
       "Route": "css/general.css",
       "AssetFile": "E:\\web\\BookLibrary\\BookLibrary\\wwwroot\\css\\general.css",
       "Selectors": [],
@@ -2307,88 +2080,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-9bMwipoVQjb7jER0PVz31nsMBD1YPeKxnVQTp7AMmwU="
-        }
-      ]
-    },
-    {
-      "Route": "css/main.css",
-      "AssetFile": "E:\\web\\BookLibrary\\BookLibrary\\wwwroot\\css\\main.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2952"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"OqJvA11ER+4w/GACLuo/aVJodP6yyaEqbOduICbSJzE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 28 Oct 2024 07:39:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-OqJvA11ER+4w/GACLuo/aVJodP6yyaEqbOduICbSJzE="
-        }
-      ]
-    },
-    {
-      "Route": "css/main.uzj83m1yrt.css",
-      "AssetFile": "E:\\web\\BookLibrary\\BookLibrary\\wwwroot\\css\\main.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2952"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"OqJvA11ER+4w/GACLuo/aVJodP6yyaEqbOduICbSJzE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 28 Oct 2024 07:39:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "uzj83m1yrt"
-        },
-        {
-          "Name": "label",
-          "Value": "css/main.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-OqJvA11ER+4w/GACLuo/aVJodP6yyaEqbOduICbSJzE="
         }
       ]
     },

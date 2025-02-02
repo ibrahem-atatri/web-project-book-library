@@ -61,7 +61,7 @@
                 <h2>Book Library</h2>
                 <div class="header-button">
                     <a asp-controller="Home" asp-action="Index" type="button">End Search</a>
-                    @if (@ViewBag.admin)
+                    @if (@ViewBag.admin!= null && ViewBag.admin == true)
                     {
                         <a asp-controller="Book" asp-action="Add" type="button"> Add </a>
                     }
@@ -81,7 +81,7 @@
                                 <p>Genre: <span>@book.bookGenre</span></p>
                             </div>
                             
-                            @if (@ViewBag.admin)
+                            @if (@ViewBag.admin == true)
                             {
                                 <div class="buttons">
                                     <a asp-controller="Book" asp-action="Edit" asp-route-id="@book.bookId">Edit</a>

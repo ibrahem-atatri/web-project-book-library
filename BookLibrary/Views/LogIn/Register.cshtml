@@ -24,25 +24,21 @@
                 <i class="fa-regular fa-user"></i>
                 <input type="text" asp-for="userName" required>
                 <span>Name</span>
-                <div class="name-error-msg">Name is required</div>
             </div>
             <div class="email">
                 <i class="fa-regular fa-envelope"></i>
                 <input type="email" asp-for="userEmail" required>
                 <span>Email</span>
-                <div class="email-error-msg">Email is required</div>
             </div>
             <div class="password">
                 <i class="fa-solid fa-lock"></i>
                 <input type="password" asp-for="userPassword" required>
                 <span>Password</span>
-                <div class="password-error-msg">Password is required</div>
             </div>
             <div class="confirm-password">
                 <i class="fa-solid fa-lock"></i>
                 <input type="password" name="confirmPassword" required>
                 <span>Confirm Password</span>
-                <div class="confirm-password-error-msg">Passwords must match</div>
             </div>
             @if (@ViewBag.text != null)
             {

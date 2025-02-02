@@ -26,6 +26,7 @@ namespace BookLibrary.Controllers
             if (HttpContext.Session.GetString("userAdmin") == "True")
             {
                 ViewBag.admin = true;
+              
             }
             else
             {
